@@ -1,0 +1,12 @@
+node_modules/
+dist/
+bin/
+obj/
+*.user
+.vs/
+.vscode/
+.idea/
+.DS_Store
+server/GameServer/wwwroot/*
+!server/GameServer/wwwroot/.gitkeep
+TestResults/

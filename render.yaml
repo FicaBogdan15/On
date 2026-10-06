@@ -1,0 +1,13 @@
+# Render Blueprint: one Docker web service serves the client, REST API and SignalR hub.
+# Game state lives in memory, so keep this at exactly ONE instance (no horizontal scaling).
+services:
+  - type: web
+    name: pixel-pawns
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    healthCheckPath: /api/health
+    autoDeploy: true
+    envVars:
+      - key: ASPNETCORE_ENVIRONMENT
+        value: Production

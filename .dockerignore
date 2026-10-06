@@ -1,0 +1,8 @@
+**/node_modules
+**/dist
+**/bin
+**/obj
+.claude
+.git
+**/*.md
+!README.md

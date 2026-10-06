@@ -1,0 +1,401 @@
+{
+  "world": {
+    "width": 5000,
+    "height": 1500
+  },
+  "biomes": [
+    {
+      "id": "forest",
+      "x0": 0,
+      "x1": 1385
+    },
+    {
+      "id": "village",
+      "x0": 1385,
+      "x1": 2527
+    },
+    {
+      "id": "desert",
+      "x0": 2527,
+      "x1": 3686
+    },
+    {
+      "id": "snow",
+      "x0": 3686,
+      "x1": 5000
+    }
+  ],
+  "tiles": [
+    {
+      "index": 0,
+      "type": "start",
+      "biome": "forest",
+      "x": 180,
+      "y": 603
+    },
+    {
+      "index": 1,
+      "type": "empty",
+      "biome": "forest",
+      "x": 251,
+      "y": 727
+    },
+    {
+      "index": 2,
+      "type": "empty",
+      "biome": "forest",
+      "x": 337,
+      "y": 841
+    },
+    {
+      "index": 3,
+      "type": "plusTwo",
+      "biome": "forest",
+      "x": 440,
+      "y": 940
+    },
+    {
+      "index": 4,
+      "type": "empty",
+      "biome": "forest",
+      "x": 538,
+      "y": 1043
+    },
+    {
+      "index": 5,
+      "type": "empty",
+      "biome": "forest",
+      "x": 633,
+      "y": 1150
+    },
+    {
+      "index": 6,
+      "type": "mystery",
+      "biome": "forest",
+      "x": 758,
+      "y": 1196
+    },
+    {
+      "index": 7,
+      "type": "empty",
+      "biome": "forest",
+      "x": 851,
+      "y": 1089
+    },
+    {
+      "index": 8,
+      "type": "empty",
+      "biome": "forest",
+      "x": 911,
+      "y": 960
+    },
+    {
+      "index": 9,
+      "type": "minusOne",
+      "biome": "forest",
+      "x": 964,
+      "y": 828
+    },
+    {
+      "index": 10,
+      "type": "empty",
+      "biome": "forest",
+      "x": 1019,
+      "y": 696
+    },
+    {
+      "index": 11,
+      "type": "shield",
+      "biome": "forest",
+      "x": 1083,
+      "y": 568
+    },
+    {
+      "index": 12,
+      "type": "empty",
+      "biome": "forest",
+      "x": 1176,
+      "y": 462
+    },
+    {
+      "index": 13,
+      "type": "empty",
+      "biome": "forest",
+      "x": 1314,
+      "y": 438
+    },
+    {
+      "index": 14,
+      "type": "empty",
+      "biome": "village",
+      "x": 1456,
+      "y": 445
+    },
+    {
+      "index": 15,
+      "type": "swap",
+      "biome": "village",
+      "x": 1582,
+      "y": 507
+    },
+    {
+      "index": 16,
+      "type": "empty",
+      "biome": "village",
+      "x": 1661,
+      "y": 625
+    },
+    {
+      "index": 17,
+      "type": "plusTwo",
+      "biome": "village",
+      "x": 1721,
+      "y": 755
+    },
+    {
+      "index": 18,
+      "type": "empty",
+      "biome": "village",
+      "x": 1774,
+      "y": 887
+    },
+    {
+      "index": 19,
+      "type": "mystery",
+      "biome": "village",
+      "x": 1829,
+      "y": 1018
+    },
+    {
+      "index": 20,
+      "type": "empty",
+      "biome": "village",
+      "x": 1897,
+      "y": 1144
+    },
+    {
+      "index": 21,
+      "type": "doubleMovement",
+      "biome": "village",
+      "x": 2015,
+      "y": 1203
+    },
+    {
+      "index": 22,
+      "type": "empty",
+      "biome": "village",
+      "x": 2122,
+      "y": 1110
+    },
+    {
+      "index": 23,
+      "type": "minusOne",
+      "biome": "village",
+      "x": 2212,
+      "y": 1000
+    },
+    {
+      "index": 24,
+      "type": "empty",
+      "biome": "village",
+      "x": 2310,
+      "y": 896
+    },
+    {
+      "index": 25,
+      "type": "portal",
+      "biome": "village",
+      "x": 2409,
+      "y": 794
+    },
+    {
+      "index": 26,
+      "type": "empty",
+      "biome": "village",
+      "x": 2492,
+      "y": 678
+    },
+    {
+      "index": 27,
+      "type": "empty",
+      "biome": "desert",
+      "x": 2561,
+      "y": 553
+    },
+    {
+      "index": 28,
+      "type": "shield",
+      "biome": "desert",
+      "x": 2629,
+      "y": 428
+    },
+    {
+      "index": 29,
+      "type": "empty",
+      "biome": "desert",
+      "x": 2718,
+      "y": 317
+    },
+    {
+      "index": 30,
+      "type": "mystery",
+      "biome": "desert",
+      "x": 2839,
+      "y": 352
+    },
+    {
+      "index": 31,
+      "type": "empty",
+      "biome": "desert",
+      "x": 2912,
+      "y": 474
+    },
+    {
+      "index": 32,
+      "type": "minusOne",
+      "biome": "desert",
+      "x": 2973,
+      "y": 603
+    },
+    {
+      "index": 33,
+      "type": "empty",
+      "biome": "desert",
+      "x": 3035,
+      "y": 732
+    },
+    {
+      "index": 34,
+      "type": "plusTwo",
+      "biome": "desert",
+      "x": 3109,
+      "y": 854
+    },
+    {
+      "index": 35,
+      "type": "empty",
+      "biome": "desert",
+      "x": 3207,
+      "y": 957
+    },
+    {
+      "index": 36,
+      "type": "swap",
+      "biome": "desert",
+      "x": 3321,
+      "y": 1043
+    },
+    {
+      "index": 37,
+      "type": "empty",
+      "biome": "desert",
+      "x": 3431,
+      "y": 1133
+    },
+    {
+      "index": 38,
+      "type": "minusOne",
+      "biome": "desert",
+      "x": 3562,
+      "y": 1168
+    },
+    {
+      "index": 39,
+      "type": "empty",
+      "biome": "desert",
+      "x": 3655,
+      "y": 1063
+    },
+    {
+      "index": 40,
+      "type": "empty",
+      "biome": "snow",
+      "x": 3717,
+      "y": 934
+    },
+    {
+      "index": 41,
+      "type": "doubleMovement",
+      "biome": "snow",
+      "x": 3769,
+      "y": 802
+    },
+    {
+      "index": 42,
+      "type": "empty",
+      "biome": "snow",
+      "x": 3822,
+      "y": 669
+    },
+    {
+      "index": 43,
+      "type": "mystery",
+      "biome": "snow",
+      "x": 3882,
+      "y": 539
+    },
+    {
+      "index": 44,
+      "type": "portal",
+      "biome": "snow",
+      "x": 3969,
+      "y": 428
+    },
+    {
+      "index": 45,
+      "type": "empty",
+      "biome": "snow",
+      "x": 4105,
+      "y": 418
+    },
+    {
+      "index": 46,
+      "type": "minusOne",
+      "biome": "snow",
+      "x": 4238,
+      "y": 469
+    },
+    {
+      "index": 47,
+      "type": "empty",
+      "biome": "snow",
+      "x": 4364,
+      "y": 535
+    },
+    {
+      "index": 48,
+      "type": "shield",
+      "biome": "snow",
+      "x": 4454,
+      "y": 645
+    },
+    {
+      "index": 49,
+      "type": "empty",
+      "biome": "snow",
+      "x": 4519,
+      "y": 772
+    },
+    {
+      "index": 50,
+      "type": "minusOne",
+      "biome": "snow",
+      "x": 4576,
+      "y": 903
+    },
+    {
+      "index": 51,
+      "type": "empty",
+      "biome": "snow",
+      "x": 4632,
+      "y": 1034
+    },
+    {
+      "index": 52,
+      "type": "finish",
+      "biome": "snow",
+      "x": 4700,
+      "y": 1159
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "backend",
+      "runtimeExecutable": "dotnet",
+      "runtimeArgs": [
+        "run",
+        "--project",
+        "server/GameServer",
+        "--no-build"
+      ],
+      "port": 5080
+    },
+    {
+      "name": "client",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "--prefix",
+        "client",
+        "run",
+        "dev"
+      ],
+      "port": 5173
+    },
+    {
+      "name": "backend-debug",
+      "runtimeExecutable": "env",
+      "runtimeArgs": [
+        "Debug__ForceMiniGame=HigherLower",
+        "Debug__StartPosition=0",
+        "dotnet",
+        "run",
+        "--project",
+        "server/GameServer",
+        "--no-build"
+      ],
+      "port": 5080
+    }
+  ]
+}
